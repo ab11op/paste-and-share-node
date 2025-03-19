@@ -1,0 +1,43 @@
+version: "3.8"
+services:
+  mongodb:
+    image: mongo:latest
+    container_name: paste-and-share-mongo
+    restart: always
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+    networks:
+      - paste_and_share_net
+
+  memcached:
+    image: memcached:latest
+    container_name: paste-and-share-memcached
+    restart: always
+    ports:
+      - "11211:11211"
+    networks:
+      - paste_and_share_net 
+
+  paste-and-share:
+    build: .
+    container_name: paste-and-share-app
+    restart: always
+    ports:
+      - "4001:4001"
+    depends_on:
+      - mongodb
+      - memcached
+    env_file:
+      - .env
+    networks:
+      - paste_and_share_net  
+
+
+volumes:
+  mongo_data:
+
+networks:
+  paste_and_share_net:
+    driver: bridge

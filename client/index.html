@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paste and Share</title>
+    <link rel="stylesheet" href="./styles.css">
+    
+    <!-- Quill.js for Rich Text Editing -->
+    <link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
+    <script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
+    
+    <!-- Prism.js for Syntax Highlighting -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-json.min.js"></script>
+
+    <!-- PDF.js for PDF Text Extraction -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.min.js"></script>
+    
+    <!-- Mammoth.js for DOCX Text Extraction -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.4.2/mammoth.browser.min.js"></script>
+</head>
+<body>
+    <h1>Paste and Share</h1>
+
+    <!-- Rich Text Editor -->
+    <div id="editor-container"></div>
+    <button onclick="createPaste()">Create Paste</button>
+    <p id="pasteLink"></p>
+
+    <h3>Enter Paste ID to Retrieve:</h3>
+    <div class="input-container">
+        <input type="text" id="pasteIdInput" placeholder="Enter paste ID">
+        <button onclick="getPaste()" id="getPasteBtn">Get Paste</button>
+        <button id="uploadBtn" onclick="uploadFile()">Upload File</button>
+    </div>
+
+    <h3>Paste Content:</h3>
+    <textarea id="pasteContent"></textarea>
+    <div class="button-container">
+        <button onclick="formatText()">Format</button>
+        <button onclick="copyToClipboard()">Copy</button>
+    </div>
+
+    <hr>
+
+    <input type="file" id="fileInput">
+    
+    <script src="./script.js"></script>
+</body>
+</html>

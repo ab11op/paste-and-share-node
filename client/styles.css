@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: center;
+    background-color: #f8f9fa;
+}
+
+h1 {
+    color: #333;
+}
+
+#editor-container {
+    width: 80%;
+    height: 300px;
+    margin: 20px auto;
+    background: white;
+    border: 1px solid #ccc;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+input[type="text"], input[type="file"] {
+    padding: 8px;
+    margin: 10px;
+    font-size: 16px;
+}
+
+pre {
+    background: #eee;
+    padding: 10px;
+    text-align: left;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    border-radius: 5px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+#pasteLink a, #fileLink a {
+    color: #28a745;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#pasteLink a:hover, #fileLink a:hover {
+    text-decoration: underline;
+}
+
+/* Increase textarea size */
+#pasteContent {
+    width: 100%;
+    height: 300px;
+    font-family: monospace;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    resize: vertical;
+}
+
+/* Align Upload button to the right */
+#uploadBtn {
+    float: right;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#uploadBtn:hover {
+    background-color: #0056b3;
+}
+
+/* Ensure input field and buttons are in one row */
+.input-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;  /* Space between elements */
+}
+
+/* Adjust input field size */
+#pasteIdInput {
+    flex-grow: 1;  /* Allows input to take up remaining space */
+    padding: 8px;
+    font-size: 16px;
+}
+
+/* Style buttons */
+#getPasteBtn, #uploadBtn {
+    padding: 8px 15px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#getPasteBtn:hover, #uploadBtn:hover {
+    background-color: #0056b3;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Styled Code Box */
+pre {
+    background: #f4f4f4;
+    padding: 15px;
+    border-radius: 5px;
+    overflow: auto;
+    font-size: 14px;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}

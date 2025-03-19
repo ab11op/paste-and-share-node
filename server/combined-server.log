@@ -1,0 +1,55 @@
+{"level":"info","message":"server is listening on port 4001","service":"paste-and-share-service"}
+{"level":"info","message":"server is listening on port 4001","service":"paste-and-share-service"}
+{"level":"info","message":"server is listening on port 4001","service":"paste-and-share-service"}
+{"level":"info","message":"server is listening on port 4001","service":"paste-and-share-service"}
+{"level":"info","message":"server is listening on port 4001","service":"paste-and-share-service"}
+{"level":"info","message":"server is listening on port 4001","service":"paste-and-share-service"}
+{"level":"info","message":"server is listening on port 4001","service":"paste-and-share-service"}
+{"level":"info","message":"server is listening on port 4001","service":"paste-and-share-service"}
+{"level":"info","message":"server is listening on port 4001","service":"paste-and-share-service"}
+{"level":"info","message":"server is listening on port 4001","service":"paste-and-share-service"}
+{"level":"info","message":"server is listening on port 4001","service":"paste-and-share-service"}
+{"level":"info","message":"server is listening on port 4001","service":"paste-and-share-service"}
+{"level":"info","message":"server is listening on port 4001","service":"paste-and-share-service"}
+{"level":"info","message":"server is listening on port 4001","service":"paste-and-share-service"}
+{"level":"info","message":"server is listening on port 4001","service":"paste-and-share-service"}
+{"level":"info","message":"server is listening on port 4001","service":"paste-and-share-service"}
+{"level":"info","message":"server is listening on port 4001","service":"paste-and-share-service"}
+{"level":"info","message":"server is listening on port 4001","service":"paste-and-share-service"}
+{"level":"info","message":"server is listening on port 4001","service":"paste-and-share-service"}
+{"level":"info","message":"server is listening on port 4001","service":"paste-and-share-service"}
+{"level":"info","message":"server is listening on port 4001","service":"paste-and-share-service"}
+{"level":"info","message":"clientDirConfig","service":"paste-and-share-service"}
+{"level":"info","message":"server is listening on port 4001","service":"paste-and-share-service"}
+{"level":"info","message":"clientDirConfig","service":"paste-and-share-service"}
+{"level":"info","message":"server is listening on port 4001","service":"paste-and-share-service"}
+{"level":"info","message":"","service":"paste-and-share-service"}
+{"level":"info","message":"server is listening on port 4001","service":"paste-and-share-service"}
+{"level":"info","message":"clientDirConfig","service":"paste-and-share-service"}
+{"level":"info","message":"server is listening on port 4001","service":"paste-and-share-service"}
+{"level":"info","message":"clientDirConfig :","service":"paste-and-share-service"}
+{"level":"info","message":"server is listening on port 4001","service":"paste-and-share-service"}
+{"level":"info","message":"clientDirConfig : /Users/akash/Documents/projects/paste-and-share/client","service":"paste-and-share-service"}
+{"level":"info","message":"server is listening on port 4001","service":"paste-and-share-service"}
+{"level":"info","message":"clientDirConfig : string","service":"paste-and-share-service"}
+{"level":"info","message":"server is listening on port 4001","service":"paste-and-share-service"}
+{"level":"info","message":"server is listening on port 4001","service":"paste-and-share-service"}
+{"level":"info","message":"server is listening on port 4001","service":"paste-and-share-service"}
+{"level":"info","message":"server is listening on port 4001","service":"paste-and-share-service"}
+{"level":"info","message":"server is listening on port 4001","service":"paste-and-share-service"}
+{"level":"info","message":"server is listening on port 4001","service":"paste-and-share-service"}
+{"level":"info","message":"server is listening on port 4001","service":"paste-and-share-service"}
+{"level":"info","message":"server is listening on port 4001","service":"paste-and-share-service"}
+{"level":"info","message":"server is listening on port 4001","service":"paste-and-share-service"}
+{"level":"info","message":"server is listening on port 4001","service":"paste-and-share-service"}
+{"level":"info","message":"server is listening on port 4001","service":"paste-and-share-service"}
+{"level":"info","message":"server is listening on port 4001","service":"paste-and-share-service"}
+{"level":"info","message":"server is listening on port 4001","service":"paste-and-share-service"}
+{"level":"info","message":"server is listening on port 4001","service":"paste-and-share-service"}
+{"level":"info","message":"memecached connected","service":"paste-and-share-service"}
+{"level":"info","message":"server is listening on port 4001","service":"paste-and-share-service"}
+{"level":"info","message":"memecached connected","service":"paste-and-share-service"}
+{"level":"info","message":"server is listening on port 4001","service":"paste-and-share-service"}
+{"level":"info","message":"memecached connected","service":"paste-and-share-service"}
+{"level":"error","message":"error in connecting to the database: MongooseError: The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.","service":"paste-and-share-service"}
+{"level":"info","message":"server is listening on port 4001","service":"paste-and-share-service"}
